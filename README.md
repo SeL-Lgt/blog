@@ -38,6 +38,8 @@ npm run lint
     | -- src                                                       // 源码目录
     |    | -- api                                                  // API 接口
     |    | -- assets                                               // css 和图片资源
+    |    |    | -- images
+    |    |    | -- css                                             
     |    | -- views                                                // 页面视图
     |    |    | -- Layout                                          // 布局组件
     |    |    |    | -- Header                                     // 通用头
