@@ -25,6 +25,7 @@
       </el-row>
     </div>
     <router-view></router-view>
+    <footer></footer>
     <!--  资料卡  -->
     <el-drawer :visible.sync="drawerShow" direction="ltr" size="16%" :withHeader="false">
       <div class="drawerCard">
@@ -120,18 +121,18 @@
                         icon: "el-icon-s-home",
                         url: ""
                     }],
-                bg: Night
+                bg: null
             }
         },
         created() {
-
+            this.$options.methods.SunOrNight.bind(this)();
         },
         methods: {
             SunOrNight() {
                 if (this.sunOrNight)
-                    this.bg=Night;
+                    this.bg = Morning;
                 else
-                    this.bg=Morning
+                    this.bg = Night;
             }
         }
     }
