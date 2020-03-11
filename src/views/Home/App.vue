@@ -67,8 +67,8 @@
 
 <script>
     import face from "@/assets/images/face.jpg";
-    import Night from "@/assets/images/Night.jpg";
-    import Morning from "@/assets/images/Morning.jpg"
+    import Night from "@/assets/images/Night.png";
+    import Morning from "@/assets/images/Morning.png"
 
     export default {
         name: "App.vue",
