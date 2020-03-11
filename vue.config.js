@@ -1,3 +1,6 @@
+const webpack = require('webpack')
+const CompressionWebpackPlugin = require('compression-webpack-plugin')
+const productionGzipExtensions = ['js', 'css']
 module.exports = {
     //选项
     publicPath: "./",    //基本路径
@@ -20,6 +23,20 @@ module.exports = {
         }
     },
     parallel: require('os').cpus().length > 1, // 构建时开启多进程处理babel编译
+    configureWebpack: {
+        plugins: [
+            // Ignore all locale files of moment.js
+            new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+
+            // 配置compression-webpack-plugin压缩
+            new CompressionWebpackPlugin({
+                algorithm: 'gzip',
+                test: new RegExp('\\.(' + productionGzipExtensions.join('|') + ')$'),
+                threshold: 10240,
+                minRatio: 0.8
+            })
+        ]
+    },
     pluginOptions: { // 第三方插件配置
     },
     pwa: { // 单页插件相关配置 https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
@@ -39,6 +56,7 @@ module.exports = {
         //     }
         // },
         // eslint-disable-next-line no-unused-vars
-        before: app => {}
+        before: app => {
+        }
     }
 }
