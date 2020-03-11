@@ -1,4 +1,11 @@
 @font-face {
     font-family: 'HYSWSS';
-    src: url('汉仪尚巍手书字体.ttf');
+    src: url('HYSWSS.ttf');/*汉仪尚巍手书字体*/
+    /*src:*/
+    /*  url('../font/HYSWSS.eot?#font-spider') format('embedded-opentype');*/
+    /*  url('../font/HYSWSS.woff') format('woff'),*/
+    /*  url('../font/HYSWSS.ttf') format('truetype'),*/
+    /*  url('../font/HYSWSS.svg') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
 }
