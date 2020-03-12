@@ -67,8 +67,9 @@
 
 <script>
     import face from "@/assets/images/face.jpg";
-    import Night from "@/assets/images/Night.png";
-    import Morning from "@/assets/images/Morning.png"
+    import images from "@/assets/images/images.json"
+    // import Night from "@/assets/images/Night.png";
+    // import Morning from "@/assets/images/Morning.png"
 
     export default {
         name: "App.vue",
@@ -130,9 +131,9 @@
         methods: {
             SunOrNight() {
                 if (this.sunOrNight)
-                    this.bg = Morning;
+                    this.bg = images[1].url;
                 else
-                    this.bg = Night;
+                    this.bg = images[0].url;
             }
         }
     }
