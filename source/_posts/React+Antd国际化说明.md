@@ -5,6 +5,8 @@ updated: 2022-07-10
 tags: 国际化
 categories: 国际化
 ---
+在antd海外项目中，进行文案替换方案示例。
+<!-- more -->
 ## 目录
 
 - [react-intl-universal插件介绍](#react-intl-universal插件介绍)

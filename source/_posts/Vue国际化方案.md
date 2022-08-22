@@ -5,6 +5,8 @@ updated: 2022-07-12
 tags: 国际化
 categories: 国际化
 ---
+在vue海外项目中，进行文案替换方案示例。
+<!-- more -->
 ## 目录
 
 - [vue-i18n介绍](#vue-i18n介绍)
