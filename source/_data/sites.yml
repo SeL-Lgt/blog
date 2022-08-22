@@ -33,31 +33,6 @@ mac:
       avatar: https://fastly.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/mac/xclient-icon.png
       description: 精品MAC应用分享
 
-ios:
-  title: 行业大佬
-  description:
-  items:
-    - title: OneV's Den
-      url: https://onevcat.com/#blog
-      screenshot: https://fastly.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/developer/onevcat-screenshot.jpg
-      avatar: https://fastly.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/developer/onevcat-icon.jpg
-      description: 上善若水，人淡如菊
-    - title: 曾静的博客
-      url: https://blog.devzeng.com/#blog
-      screenshot: https://fastly.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/developer/devzeng-screenshot.jpg
-      avatar: https://fastly.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/developer/devzeng-icon.jpg
-      description: 但行好事，莫问前程
-    - title: 唐巧的博客
-      url: http://blog.devtang.com
-      screenshot: https://fastly.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/developer/devtang-screenshot.jpg
-      avatar: https://fastly.jsdelivr.net/gh/cdn-x/bookmark@1.0.1/developer/devtang-icon.jpg
-      description: 记录下自己学习的点滴
-    - title: 步步走
-      url: https://bubuzou.com
-      screenshot: https://7.dusays.com/2021/05/01/dee325e2853d3.png
-      avatar:
-      description: 前端大佬
-
 design:
   title: 设计灵感和素材
   description:
@@ -172,11 +147,6 @@ online_tools:
       screenshot: https://7.dusays.com/2021/03/03/a2b15981b5a14.png
       avatar:
       description: 免费图床
-    - title: david-smith.org
-      url: https://david-smith.org/iosversionstats/
-      screenshot: https://7.dusays.com/2021/03/03/28b33280e4dc5.png
-      avatar:
-      description: 查询iOS各个版本用户量
     - title: iPhone 参数大全
       url: https://kylebing.cn/tools/iphone/
       screenshot: https://7.dusays.com/2021/03/11/52a60f363f422.png
@@ -197,11 +167,6 @@ community:
       screenshot: https://7.dusays.com/2021/03/03/d28d9e2f31f9a.png
       avatar:
       description:
-    - title: CocoaChina
-      url: http://www.cocoachina.com
-      screenshot: https://7.dusays.com/2021/03/03/b44f3d0731007.png
-      avatar:
-      description:
     - title: RUNOOB
       url: http://www.runoob.com
       screenshot: https://7.dusays.com/2021/03/03/7758e79c04623.png
@@ -220,16 +185,6 @@ community:
     - title: 廖雪峰的官方网站
       url: https://www.liaoxuefeng.com
       screenshot: https://7.dusays.com/2021/03/03/d67326f092780.png
-      avatar:
-      description:
-    - title:
-      url:
-      screenshot:
-      avatar:
-      description:
-    - title:
-      url:
-      screenshot:
       avatar:
       description:
 
