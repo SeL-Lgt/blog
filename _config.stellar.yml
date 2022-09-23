@@ -5,3 +5,22 @@ sidebar:
     notes: '[工具导航](/notes/)'
     friend: '[友链](/notes/)'
     more: '[更多](/more/)'
+######## Footer ########
+footer:
+  social:
+   github:
+     icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
+     url: /
+  # music:
+  #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
+  #   url: /
+  # unsplash:
+  #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
+  #   url: /
+  # comments:
+  #   icon: '<img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
+  #   url: /about/#comments
+
+  content: | # 支持 Markdown 格式
+    备案号：[粤ICP备20010676号](https://beian.miit.gov.cn/)
+  # 主题用户越多，开发者维护和更新的积极性就越高，如果您喜欢本主题，请在适当的位置显示主题信息和仓库链接以表支持。
