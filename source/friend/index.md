@@ -5,4 +5,4 @@ breadcrumb: false
 seo_title: 工具导航
 ---
 
-{% sites not:friend %}
+{% sites only:friend %}

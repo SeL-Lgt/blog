@@ -188,12 +188,24 @@ community:
       avatar:
       description:
 
-examples:
-  - title: XAOXUU
-    avatar: https://fastly.jsdelivr.net/gh/cdn-x/xaoxuu/avatar/rect-256@2x.png
-    url: https://xaoxuu.com
-    screenshot: https://7.dusays.com/2021/03/06/b43115b6a7c5d.jpg
-  - title: Volantis
-    avatar: https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
-    url: https://volantis.js.org/
-    screenshot: https://i.loli.net/2021/04/08/YQ2nhcvyCuFsm3g.png
+friend:
+  title: 友情链接
+  items:
+    - title: Farmer的自习室
+      avatar: https://blog.farmer233.top/favicon.ico
+      url: https://blog.farmer233.top/
+      screenshot: /images/blog.farmer233.top.png
+    - title: 咸鱼的窝
+      avatar: https://blog.xiaotao233.top/favicon.ico
+      url: https://blog.xiaotao233.top/
+      screenshot: /images/blog.farmer233.top.png
+    - title: Dark
+      avatar: https://darkroom.vip/images/favicon.ico
+      url: https://darkroom.vip/
+      screenshot: /images/darkroom.vip.png
+    - title: DIY熙
+      avatar: https://blog.diyxi.top/favicon.ico
+      url: https://blog.diyxi.top/
+      screenshot: /images/blog.diyxi.top.png
+
+

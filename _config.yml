@@ -4,13 +4,14 @@
 
 # Site
 title: 不知名的狼窝
+avatar: /images/favicon.ico
 subtitle: ''
 description: ''
 keywords:
 author: SeL
 language: zh-CN
 timezone: ''
-
+favicon: images/favicon.ico
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://lisay.top
