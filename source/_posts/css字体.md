@@ -61,8 +61,8 @@ categories: CSS
 可通过以下网址进行获取,连同相应的 css 文件：
 [https://www.fontsquirrel.com/tools/webfont-generator](https://www.fontsquirrel.com/tools/webfont-generator)
 以下为使用流程
-![a](1.png)
-![a](2.png)
+![步骤1](1.png)
+![步骤2](2.png)
 下方**红色标注的选项**记得勾上（懒得截图了）
 **别用迅雷下载 容易出现压缩包为 0kb 的情况**
 
@@ -84,6 +84,6 @@ font-spider *.html
 
 ```
 
-![3](3.png)
+![成果](3.png)
 如图会发现，原本的 2MB 的字体文件会重新成只有 4kb 的字体文件。
 此方法能够减少用户的加载时间，但如果文字内容更换则需要重新打包，建议用在网站名字等不常更改的地方。
